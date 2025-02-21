@@ -23,9 +23,9 @@ It is a lightweight markup language designed to simplify the process of formatti
 
 *There is no clearly defined Markdown standard. This has led to fragmentation as different vendors write their own variants of the language to correct flaws or add missing features...*
 
-This demonstration will mainly focus on GitHub Flavoured Markdown.
+This demonstration will mainly focus on GitHub flavored Markdown.
 
-## Why use markdown ? ¯\_(ツ)_/¯
+## Why use markdown ? ¯\\__(ツ)_/¯
 Because it's:
 * **EASY** : The syntax is so easy that you can learn in a minute or two then write without noticing anything weird or geeky.
 * **FAST** : It saves time compared to other types of text files/formats. It helps boost the productivity and workflows of writer.
@@ -72,8 +72,32 @@ The same goes for **block code/syntax hightlighting**. It kinda looks like this 
 
 ![](http://i.imgur.com/z8KrxAz.png).
 
-These characteristics are dependent upon each markdown flavour.  
+These characteristics are dependent upon each markdown flavor.  
 
+<br></br>
+
+### Details
+This isn't a markdown thing but it is another example of using HTML tags in a Markdown file. It has the same effect as an accordian.
+<details>
+  <summary>Title 1</summary>
+  <p>Some hidden content goes here</p>
+</details>
+<details>
+  <summary>Title 2</summary>
+  <p>Same stuff here</p>
+</details>
+
+```html
+<details>
+  <summary>Title 1</summary>
+  <p>Some hidden content goes here</p>
+  Here is some more without a paragraph tag
+</details>
+<details>
+  <summary>Title 2</summary>
+  <p>Same stuff here</p>
+</details>
+```
 
 ## Useful notes 📋 :
 * Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. One commonly used backslash escape character is : \
@@ -108,6 +132,6 @@ These characteristics are dependent upon each markdown flavour.
 </details>
 
 <details>
-  <summary>TRUE or FALSE : There is a defined Markdown standard for GitHub Flavoured Markdown.</summary>
+  <summary>TRUE or FALSE : There is a defined Markdown standard for GitHub flavored Markdown.</summary>
   FALSE. There is no clearly defined Markdown standard.
 </details>
