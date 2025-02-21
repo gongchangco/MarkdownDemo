@@ -58,7 +58,7 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
 | Code 	| \`Insert Code\` 	| `cout<<"Hello world";` 	|
 | Code block/ Syntax highlighting 	| \`\`\`insert code\`\`\` 	|  <a href="#section1">Hey,Please read the note below this table. 	|
 | Headers 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	| <h1>This is a h1 header</h1> <h2>This is a h2 header</h2> <h3>This is a h3 header</h3> <h4>This is a h4 header</h4> <h5>This is a h5 header</h5> <h6>This is a h6 header</h6>	|
-| Strike through 	| \~~Insert text here\~~ 	| ~~I am dead~~ 	|
+| Strike through 	| \~\~Insert text here\~\~ 	| ~~I am dead~~ 	|
 | Tables 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
 |Footnotes| Footnote[\^1\] <br> [\^1\]: Text reference | Here is a simple footnote[^1]. With some additional text after it. | 
 [^1]: My footnote reference.
@@ -100,4 +100,14 @@ These characteristics are dependent upon each markdown flavour.
 <details>
   <summary>What syntax is used to create italic text?</summary>
   Italic text is created by wrapping text with a single asterisk on both beginning and end of the text.
+</details>
+
+<details>
+  <summary>TRUE or FALSE : Markdown allows you to create tables without using HTML.</summary>
+  TRUE. Standard Markdown and GitHub Flavored Markdown support table creation using pipe symbols (|) to separate columns and hyphens (-) to create the header row.
+</details>
+
+<details>
+  <summary>TRUE or FALSE : There is a defined Markdown standard for GitHub Flavoured Markdown.</summary>
+  FALSE. There is no clearly defined Markdown standard.
 </details>
