@@ -39,4 +39,46 @@ Because it's:
 <div id='syntax' />
 
 ## Markdown Syntax
-All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax. 
+All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.
+
+| Format        | Syntax      | Example |
+| ------|-----|-----|
+| Italic  	| \*Text\* 	| *This is italic* 	|
+| Bold  	| \*\*Bold\*\* 	| **This is bold** 	|
+| Inline links 	| \[Description text\](url here) 	| A [link](http://www.github.com) 	|
+| Images 	| \![Caption\](url to img) 	| An image ![image](https://i.imgur.com/vUiouM8.png)	|
+| Link+images 	| \[\![Caption\](url to img)\](url to a page)\] 	| Click me [![me](https://i.imgur.com/vUiouM8.png)](https://www.github.com) 	|
+| Footnotes  	| I have more \[^1\] to say.   \[^1\]: say it down here. 	| <a href="#section1">Hey,Please read the note below this table.  	|
+| Line breaks 	| Double space + enter 	|  	|
+| Unordered Lists 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li></ul> 	|
+| Ordered Lists 	| 1. Item a    2. Item b 	| <ol><li>itema</li><li>itemb</li><li>itemc</li><li>itemd</li></ol>  	|
+| Mixed Lists 	| 1. Item 1      * item 1a 	|  <ol><li>itema</li></ol><ul><li> item1</li></ul>	|
+| Block quote 	| \> Quoted text 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
+| Preformatted 	| Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
+| Code 	| \`Insert Code\` 	| `cout<<"Hello world";` 	|
+| Code block/ Syntax highlighting 	| \`\`\`insert code\`\`\` 	|  <a href="#section1">Hey,Please read the note below this table. 	|
+| Headers 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	| <h1>This is a h1 header</h1> <h2>This is a h2 header</h2> <h3>This is a h3 header</h3> <h4>This is a h4 header</h4> <h5>This is a h5 header</h5> <h6>This is a h6 header</h6>	|
+| Strike through 	| \~~Insert text here\~~ 	| ~~I am dead~~ 	|
+| Tables 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
+|Footnotes| Footnote[\^1\] <br> [\^1\]: Text reference | Here is a simple footnote[^1]. With some additional text after it. | 
+[^1]: My footnote reference.
+
+<br></br>
+<p id="section1">Note: **Footnote** actually doesnt render properly in table, but it kinda looks like this</p>
+
+![](http://i.imgur.com/pmeBr28.png)
+<br></br>
+The same goes for **block code/syntax hightlighting**. It kinda looks like this picture :
+
+![](http://i.imgur.com/z8KrxAz.png).
+
+These characteristics are dependent upon each markdown flavour.  
+
+
+## Useful notes  :
+* Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. One commonly used backslash escape character is : \
+`So? \*This\* isnt italic  anymore but is surrounded by literal asterisks.`
+* Markdown does support Emojii :laughing: :laughing: :kissing_heart: :innocent: :green_heart: ( get some emojies [here](http://www.emoji-cheat-sheet.com/) )
+* You can use \<br/> tag to force line break.
+* Double space then enter if you want to make a new line if there is trouble making new lines.
+* Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
