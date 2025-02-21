@@ -25,7 +25,7 @@ It is a lightweight markup language designed to simplify the process of formatti
 
 This demonstration will mainly focus on GitHub Flavoured Markdown.
 
-## Why use markdown ? 
+## Why use markdown ? ¯\_(ツ)_/¯
 Because it's:
 * **EASY** : The syntax is so easy that you can learn in a minute or two then write without noticing anything weird or geeky.
 * **FAST** : It saves time compared to other types of text files/formats. It helps boost the productivity and workflows of writer.
@@ -38,7 +38,7 @@ Because it's:
 
 <div id='syntax' />
 
-## Markdown Syntax
+## Markdown Syntax #️⃣
 All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.
 
 | Format        | Syntax      | Example |
@@ -75,10 +75,29 @@ The same goes for **block code/syntax hightlighting**. It kinda looks like this 
 These characteristics are dependent upon each markdown flavour.  
 
 
-## Useful notes  :
+## Useful notes 📋 :
 * Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. One commonly used backslash escape character is : \
 `So? \*This\* isnt italic  anymore but is surrounded by literal asterisks.`
 * Markdown does support Emojii :laughing: :laughing: :kissing_heart: :innocent: :green_heart: ( get some emojies [here](http://www.emoji-cheat-sheet.com/) )
 * You can use \<br/> tag to force line break.
 * Double space then enter if you want to make a new line if there is trouble making new lines.
 * Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
+
+<br></br>
+<br></br>
+
+## Question Time ❔
+<details>
+  <summary>What syntax is used to create a heading in Markdown?</summary>
+  Headings are created using the hash symbol (#), with the number of hashes indicating the heading level.
+</details>
+
+<details>
+  <summary>What syntax is used to create bold text in Markdown?</summary>
+  Bold text is created by wrapping text with double asterisks on both beginning and end of the text.
+</details>
+
+<details>
+  <summary>What syntax is used to create italic text?</summary>
+  Italic text is created by wrapping text with a single asterisk on both beginning and end of the text.
+</details>
